@@ -2,7 +2,7 @@
 
 A lightweight, Yazi-inspired global marking system for Emacs `dired`.
 
-This package allows you to navigate through multiple directories, collect files into a global "shopping cart," and seamlessly pass them as arguments to any external Bash, Python, or Lua script via the `eat` terminal emulator.
+This package allows you to navigate through multiple directories, collect files into a global "shopping cart" and seamlessly pass them as arguments to any external Bash, Python, or Lua script via the `eat` terminal emulator.
 
 Originally built to bypass Termux/Android PTY argument-parsing bugs, it copies the final execution command directly to your clipboard for a foolproof, manual paste execution.
 
@@ -10,7 +10,7 @@ Originally built to bypass Termux/Android PTY argument-parsing bugs, it copies t
 
 To use this script exactly as documented, you need:
 
--   [**Eat (Emacs Auto Terminal)**](https://codeberg.org/akib/emacs-eat "null")**:** Required. The script uses Eat to launch a fast, full-screen terminal.
+-   [**Eat (Emulate A Terminal)**](https://codeberg.org/akib/emacs-eat "null")**:** Required. The script uses Eat to launch a fast, full-screen terminal.
     
 -   [**Doom Emacs**](https://github.com/doomemacs/doomemacs "null") **& Evil Mode:** The keybindings provided below use Doom's `map!` macro and rely on Evil mode for the bulk-marking workflow.
     
