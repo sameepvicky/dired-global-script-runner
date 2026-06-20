@@ -6,6 +6,9 @@ This package allows you to navigate through multiple directories, collect files 
 
 Originally built to bypass Termux/Android PTY argument-parsing bugs, it copies the final execution command directly to your clipboard for a foolproof, manual paste execution.
 
+> 💡 **Note:** This package is the lightweight precursor to a more ambitious, generalized job orchestrator currently in development. If you are looking for visual batch processing and advanced task management in Emacs, keep an eye on **org-commander** ([GitHub](https://github.com/sameepvicky/org-commander) | [Codeberg](https://codeberg.org/sameepvicky/org-commander))!
+
+
 ## 📋 Prerequisites
 
 To use this script, you need:
